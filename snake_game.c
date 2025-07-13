@@ -8,7 +8,7 @@ THIS GAME IS BEING MADE USING POINTERS AND LINKED LIST AND NCURSES
 #include <time.h>
 #include <ncurses.h>
 
-#define width 60 //not to be changed throughout game
+#define width 60 
 #define height 20
 #define empty ' '
 #define bound '#'
@@ -36,7 +36,7 @@ typedef struct snake_node {
 Position food_pos(snake_node* head) {
 	Position food;
 
-	int v=0;//not possible
+	int v=0;//not valid
 	while(!v) {
 
 		food.xco=rand() % (width-2) + (x_off+1);
