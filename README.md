@@ -12,6 +12,7 @@ A classic Snake game implemented in C, using pointers, linked lists for the snak
 - **Collision Detection:** Game ends on wall or self-collision.
 - **Score Display:** Score shown during gameplay and at game over.
 - **Replay Option:** Play multiple rounds without restarting.
+- **Adjustable Difficulty:** Choose from four speed levels (Beginner, Classic, Expert, Insane).
 
 ---
 
@@ -33,6 +34,7 @@ A classic Snake game implemented in C, using pointers, linked lists for the snak
 
 ## Gameplay
 
+- Instruction page, followed by level selection.
 - Eat food (`*`) to grow and increase your score.
 - Avoid colliding with the walls (`#`) or yourself.
 - Score is displayed at the top.
